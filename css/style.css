@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-header-left {
+    width: 60%;
+    float: left;
+}
+.top-header-right {
+    width: 40%;
+    float: left;
+}
+.header1-left {
+    width: 20%;
+    float: left;
+    height: 30px;
+}
+.bgcolor-top-header {
+  background-color: #3c6d90; 
+}
+.bgcolor-3 {
+    background-color: #ffd966;
+}
+
+.header2-righ{
+    /* border: 0.1px solid #000; */
+    width: 25%;
+    height: 30px;
+    float: left;
+  
+}
+.header2 {
+    height: 30px;
+}
+.main-header {
+    margin-top: 1px;
+}
+.main-header-left {
+    width: 60%;
+    background-color: brown;
+    height: 60px;
+    float: left;
+  
+}
+.main-header-right {
+    width: 40%;
+    background-color: rgb(65, 218, 98);
+    height: 60px;
+    float: left;
+}
+.main-header-left-20 {
+    width: 20%;
+    height: 60px;
+    float: left;
+    background-color: blueviolet;
+}
+.main-header-top-left {
+    height: 30px;
+    float: left;
+    background-color: rgb(42, 165, 89);
+    /* border: 1px 1px 1px solid; */
+    width: 100%;
+   
+}
+.main-header-bot-left {
+    height: 30px;
+    float: left;
+    background-color: rgb(42, 165, 108);
+    /* border: 1px 1px 1px solid; */
+    
+    width: 100%
+   
+}
+.main-header-left-401 {
+    height: 60px;
+    float: left;
+    background-color: rgb(41, 22, 212);
+    width: 40%;
+   
+}
+.main-header-left-402-left {
+    width: 50%;
+}
+.main-header-left-402 {
+    height: 60px;
+    float: left;
+    background-color: rgb(16, 231, 34);
+    width: 40%;
+}
+.main-header-left-402-left {
+    width: 50%;
+    float: left;
+    height: 60px;
+    background-color: red;
+}
+.main-header-left-402-right {
+    width: 50%;
+    float: left;
+    height: 60px;
+    background-color: #3024d1;
+}
+.main-header-left-402-top-left {
+    width: 100%;
+    float: left;
+    height: 30px;
+    background-color: aquamarine;
+}
+.main-header-left-402-bot-left {
+    width: 100%;
+    float: left;
+    height: 30px;
+    background-color: rgb(65, 11, 190);
+}
+.main-header-left-402-right {
+    float: left;
+    width: 50%;
+    height: 60px;
+    background-color: blueviolet;
+}
+.main-header-left-402-top-right {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+.main-header-left-402-bot-right {
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: cornflowerblue;
+}

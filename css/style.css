@@ -31,7 +31,44 @@
   
 }
 .header2 {
-    height: 30px;
+     height: 120px; 
+}
+.xinchao-1 {
+    float: left;
+    width: 50%;
+}
+.xinchao-1 p {
+    padding-right: 25%;
+}
+.bamehocvien-2 {
+    height: 45px;
+}
+.bamehocvien-2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20pt;
+    float: right;
+    padding: auto;
+}
+.xinchaobamehocvien {
+    /* float: left; */
+    height: 45px;
+}
+.xinchaobamehocvien a{
+    color: black;
+    font-size: 20pt;
+    float: left;
+    /* padding: auto; */
+}
+.header2 p  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+     text-align: center;
+     margin-top: 5%;
 }
 .main-header {
     margin-top: 1px;
@@ -202,4 +239,15 @@
     float: left;
     width: 100%;
     border-bottom: 0.1px solid black;
+}
+.text-main {
+    height: 60px;
+    float: left;
+    background-color: #d0cece;
+    width: 100%;
+}
+.text-main p {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 20pt;
 }

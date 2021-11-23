@@ -76,14 +76,14 @@
 .main-header-left {
     width: 60%;
     background-color: brown;
-    height: 60px;
+    height: 90px;
     float: left;
   
 }
 .main-header-right {
     width: 40%;
     background-color: rgb(65, 218, 98);
-    height: 60px;
+    height: 90px;
     float: left;
 }
 .main-header-left-20 {
@@ -93,7 +93,7 @@
     background-color: blueviolet;
 }
 .main-header-top-left {
-    height: 30px;
+    height: 60px;
     float: left;
     background-color: rgb(42, 165, 89);
     /* border: 1px 1px 1px solid; */
@@ -110,7 +110,7 @@
    
 }
 .main-header-left-401 {
-    height: 60px;
+    height: 90px;
     float: left;
     background-color: rgb(41, 22, 212);
     width: 40%;
@@ -120,7 +120,7 @@
     width: 50%;
 }
 .main-header-left-402 {
-    height: 60px;
+    height: 90px;
     float: left;
     background-color: rgb(16, 231, 34);
     width: 40%;

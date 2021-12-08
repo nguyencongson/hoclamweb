@@ -177,15 +177,21 @@ body{
     .topFooter > .topFooter-35 {
         width: 100%;
         /* float: left; */
-        background-color: blueviolet;
-        /* display: ; */
+       
     }
-    .topFooter-35 > .footer-menu
+   
     .topFooter > .topFooter-65 {
          width: 100%;
         float: left;
         background-color: cadetblue;
         height: 320px;
+         /* background-color: blueviolet; */
+         display: flex;
+         flex-direction: column;
+    }
+    .topFooter-65 > .footer-menu {
+        width: 100%;
+        height: 60px;
     }
 
 }

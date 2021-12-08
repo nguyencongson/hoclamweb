@@ -48,7 +48,7 @@ body {
 }
 .bai2  {
     display: flex;
-    height: 30px;
+    /* height: 30px; */
     /* background-color: aquamarine; */
     flex-direction: row;
 }
@@ -57,8 +57,9 @@ body {
 }
 .bai2 {
     display: flex;
-    height: 60px;
+    height: 90px;
     /* background-color: red; */
+
 }
 .bai2 > .bai2-60 {
     display: flex;
@@ -79,6 +80,7 @@ body {
     /* background-color: #a06dda; */
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
+    font-size: 13pt;
 }
 .bai2 > .bai2-40 {
     display: flex;
@@ -88,6 +90,30 @@ body {
     border-left: 0.1px solid black;
     border-top: 0.1px solid black;
     border-right: 0.1px solid black;;
+}
+.bai2-60-40 {
+    position: relative;
+    font-weight: 600;
+}
+.bai2-60-rotation90right {
+    position: absolute;
+    /* left: 0; */
+    right: 35px;
+    top: 35px; 
+    bottom: 35px; 
+    text-align: center;
+
+    transform: rotate(-90deg);
+    /* transform-origin: 0 0 0 0; */
+}
+.bai2-60-40 .bai2-60-rotation90left {
+    position: absolute;
+    /* left: 0; */
+    top: 35px; 
+    bottom: 35px; 
+
+    transform: rotate(-90deg);
+    /* transform-origin: 0 0 0 0; */
 }
 .bgcolor-ffd966 {
     background-color: #ffd966;
@@ -130,7 +156,7 @@ body {
 .bai4-60 > .bai4-60-40  {
     display: flex;
     width: 40%;
-    height: 60px;
+    /* height: 60px; */
     background-color: #0070c0;
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;

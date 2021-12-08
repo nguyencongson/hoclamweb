@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/* Máy tính chuẩn Full HD */
+@media screen and  (max-width: 1920px)  { 
+    .container {
+        width: 1400px;
+        margin: auto;
+    }
+    .topFooter {
+        background-color: bisque;
+        height: 90px;
+    }
+
+    .topFooter {
+        display: flex;
+    }
+    .topFooter >.topFooter-35 {
+        width: 30%;
+
+    }
+    .topFooter > .topFooter-65 {
+        width: 70%;
+        background-color: red;
+    }
+    .topFooter-35 > img {
+        max-width: 100%;
+        border-bottom: 1px solid;
+        padding-bottom: 10px;
+    }
+}
+
+/* Máy tính chuẩn HD */
+@media screen and  (max-width: 1366px)  {
+    .container {
+        width: 1366px;
+        margin: auto;
+    }
+    .topFooter {
+        background-color: rgb(235, 20, 224);
+        height: 90px;
+    }
+
+
+}
+
+/* thiết bị máy tính bảng */
+
+@media screen and  (max-width: 1024px)  {
+    .container {
+        width: 1024px;
+        margin: auto;
+    }
+    .topFooter {
+        background-color: rgb(180, 107, 16);
+        height: 90px;
+    }
+
+
+}
+
+/* Thiết bị máy tính bảng nhỏ */
+@media screen and  (max-width: 768px)  {
+    .container {
+        width: 760px;
+        margin: auto;
+    }
+    .topFooter {
+        background-color: rgb(32, 88, 92);
+        height: 90px;
+    }
+
+
+}
+/* Thiết bị điện thoại */
+@media screen and  (max-width: 375px)  {
+    .container {
+        width: 360px;
+        margin: auto;
+    }
+    .topFooter {
+        background-color: rgb(45, 6, 151);
+        height: 90px;
+    }
+
+
+}

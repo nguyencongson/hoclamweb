@@ -183,15 +183,20 @@ body{
     .topFooter > .topFooter-65 {
          width: 100%;
         float: left;
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         height: 320px;
          /* background-color: blueviolet; */
          display: flex;
          flex-direction: column;
+         height: 100%;
     }
     .topFooter-65 > .footer-menu {
         width: 100%;
-        height: 60px;
+        height: 100%;
+      /* background-color: red; */
+    }
+    .footer-menu > ul > li {
+        padding-left: 10px;
     }
 
 }

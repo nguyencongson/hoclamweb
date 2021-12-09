@@ -136,8 +136,20 @@ body {
     /* height: 30px; */
     width: 40%;
     display: flex;
+   
 }
-
+.bai31 {
+    /* width: 100%; */
+    height: 90px;
+    background-color: #d0cece;
+    border-top: 0.1px solid black;
+    border-right: 0.1px solid black;
+    border-left: 0.1px solid black;;
+}
+.bai31 > h3 {
+    text-align: center;
+    margin-top: 35px;
+}
 .bai3-40 > div { 
     width: 25%;
     /* height: 30px; */
@@ -225,6 +237,7 @@ body {
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
     border-bottom: 0.1px solid black;
+    background-color: #c5e0b3;
 }
 .bai5-60 > .bai5-60-20 {
     width: 20%;
@@ -287,4 +300,17 @@ body {
 .bai5-40 > .bai5-40-75 {
     width: 75%;
     border: 0.1px solid black;
+}
+.bai5-60-80 > div {
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    background-color: #ffe599;
+    border: 0.1px solid black;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.bai5-60-80 > div > p {
+    padding-top: 15px;
 }

@@ -159,7 +159,7 @@ body {
 
 .bai4 {
     display: flex;
-    height: 60px;
+    height: 120px;
 }
 .bai4 > .bai4-60 {
     display: flex;
@@ -180,7 +180,7 @@ body {
 }
 .bai4-60-20 >.bai4-60-20-top {
     width: 100%;
-    height: 30px;
+    height: 90px;
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
 }
@@ -194,11 +194,11 @@ body {
 .bai4-40 {
     display: flex;
     width: 40%;
-    height: 60px;
+    /* height: 60px; */
 }
 .bai4-40 > .bai4-40-75 {
     width: 75%;
-    height: 60px;
+    height: 120px;
     background-color: #0070c0;
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
@@ -211,7 +211,7 @@ body {
 }
 .bai4-40-25 > .bai4-40-25-top {
     width: 100%;
-    height: 30px;
+    height: 90px;
     border-top: 0.1px solid black;
     border-left: 0.1px solid black;
     /* border-right: 0.1px solid black; */
@@ -313,4 +313,33 @@ body {
 }
 .bai5-60-80 > div > p {
     padding-top: 15px;
+}
+.bai4-60-20-top {
+    display: flex;
+    flex-direction: column;
+}
+.bai4-60-20-top > div {
+    /* width: 100%; */
+    margin: auto;
+}
+.bt-datalist {
+    width: 70%;
+    margin: auto;
+}
+.bt-datalist > input {
+    border: 0.1px solid;
+    height: 25px;
+    font-size: 10pt;
+
+}
+.bt-datalist > input[type=submit] {
+    width: 70px;
+}
+.bai4-60-20-top > .dangnhap1 {
+    width: 70%;
+    padding: 1%;
+    margin: auto;
+}
+.dangnhap1 > input {
+    margin: 3px;
 }

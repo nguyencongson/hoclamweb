@@ -178,6 +178,7 @@ body{
     .topFooter > .topFooter-35 {
         width: 100%;
         /* float: left; */
+
        
     }
    
@@ -227,4 +228,7 @@ body{
     /* width: 60%; */
     margin-left: 1%;
 
+}
+.footer-end {
+    margin-top: 2%;
 }

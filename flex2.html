@@ -72,6 +72,22 @@
                     </div>
                     
                 </div>
+                <script>
+                    function checkGender() {
+                        if(document.getElementById("gender-trai").checked == true) {
+                            alert("Trai");
+                        }
+                        if(document.getElementById("gender-gai").checked == true) {
+                            alert("Gái");
+                        }
+                        if(document.getElementById("gender-khac").checked == true) {
+                            alert("Khác");
+                        }
+
+                    }
+
+                </script>
+
                 <div class="bai4-60-20-bottom">
 
                 </div>
@@ -172,12 +188,13 @@
                 <div class="hoc-checkbox">
                     <input type="checkbox" > English <br>
                     <input type="checkbox" > Japanese <br>
-                    <button>Go1</button>
+                    <button onclick="checkGender()" >Go1</button>
                     <button>Go2</button>
                     <button>Reset</button>
                 </div>
             </div>
         </div>
      </div>
+     
 </body>
 </html> 

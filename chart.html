@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node_modules/chart.js/dist/chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="" style="width: 500px; height: 500px;">
+        <canvas id="myChart" class="demoChart" >    </canvas>
+    </div>
+   
+
+    <script>
+        const bienChart = document.getElementById("myChart");
+
+        const khaiBaoBienChart = new Chart(bienChart, {
+            type: 'line',
+            data: {
+                labels: ['Bien So 1', 'Bien so 2','Bien so 3', 'Biến số 4'],
+                datasets: [{
+                    label: 'Pepsi Đít súi',
+                    data: [1,2,5,4.6],
+                    backgroundColor: [
+                        'red',
+                        'blue',
+                        'yellow',
+                        'violet'
+                    ],
+                    borderColor: [
+                        'blue',
+                        'red',
+                        'Purple',
+                        'red'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+
+        });
+    </script>
+</body>
+</html>
